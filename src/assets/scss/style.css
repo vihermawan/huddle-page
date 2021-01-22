@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: url("/src/assets/img/bg-desktop.svg");
+  background-color: #674baf;
+  width: 100%;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.logo {
+  padding: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  .logo {
+    width: 100%;
+  }
+  .logo img {
+    width: 120px;
+  }
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+.main .main-picture {
+  width: 100%;
+}
+
+.main .main-picture img {
+  width: 740px;
+}
+
+.main .main-description {
+  padding: 10px;
+  color: white;
+}
+
+.main .main-description .main-description-text {
+  width: 100%;
+}
+
+.main .main-description .main-description-text .main-description-text-info {
+  margin-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main .main-description .main-description-button {
+  width: 160px;
+  height: 44px;
+}
+
+.main .main-description .main-description-button button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #674baf;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .main-picture {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .main-picture img {
+    width: 250px;
+  }
+  .main .main-description {
+    margin: 0px auto;
+  }
+  .main .main-description .main-description-text {
+    text-align: center;
+  }
+  .main .main-description .main-description-text .main-description-text-title h1 {
+    font-size: 1.3rem;
+  }
+  .main .main-description .main-description-text .main-description-text-info {
+    font-size: 0.8rem;
+  }
+  .main .main-description .main-description-button {
+    margin: 0px auto;
+  }
+}
+
+footer .sosmed {
+  float: right;
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
