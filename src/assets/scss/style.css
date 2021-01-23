@@ -16,7 +16,7 @@ body {
   background-image: url("/src/assets/img/bg-desktop.svg");
   background-color: #674baf;
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -24,6 +24,7 @@ body {
 
 @media screen and (max-width: 375px) {
   body {
+    background-image: url("/src/assets/img/bg-mobile.svg");
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -31,7 +32,7 @@ body {
 }
 
 .logo {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 375px) {
@@ -54,7 +55,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .main .main-picture {
@@ -136,6 +137,12 @@ footer .sosmed {
   float: right;
 }
 
+footer .sosmed img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
 @media screen and (max-width: 375px) {
   footer {
     display: -webkit-box;
@@ -144,6 +151,11 @@ footer .sosmed {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  footer .sosmed img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
